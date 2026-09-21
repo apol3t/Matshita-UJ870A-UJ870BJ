@@ -81,8 +81,8 @@ The included bitmaps illustrate raw 2D byte-entropy representations of the buffe
 
 | Baseline (Pre-Flash) | Active Flash (During / Post-Write) | Post-Reboot (Stable) |
 | :---: | :---: | :---: |
-| <img src="before_firmware_update.jpg" width="230" alt="Baseline RAM State" /> | <img src="after_fw_update.jpg" width="230" alt="Active Flash State" /> | <img src="after_reboot.jpg" width="230" alt="Post-Reboot State" /> |
-| **`before_firmware_update.jpg`** | **`after_fw_update.jpg`** | **`after_reboot.jpg`** |
+| <img src="before_firmware_update.png" width="230" alt="Baseline RAM State" /> | <img src="after_fw_update.png" width="230" alt="Active Flash State" /> | <img src="after_reboot.png" width="230" alt="Post-Reboot State" /> |
+| **`before_firmware_update.png`** | **`after_fw_update.png`** | **`after_reboot.png`** |
 | Structured RAM layout showing recurring register patterns, jump tables, and static lookup buffers prior to code transfer. | High-entropy data distribution reflecting unpacked binary firmware payloads loaded into RAM via opcode `0xEA`. | Return to low-entropy structured state as runtime execution vectors and operational buffers reinitialize. |
 
 ---
